@@ -1,6 +1,5 @@
 import {CommandClient} from "@pikostudio/command.ts";
-// @ts-ignore
-import config from '../config.json'
+const config = require('../config.json')
 
 const client = new CommandClient({}, {
     owners: 'auto',
